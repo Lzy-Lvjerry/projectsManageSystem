@@ -7,9 +7,6 @@
 
 
     <!--开启注解扫描，只扫描Controller-->
-    <context:component-scan base-package="com.lzy">
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
-    </context:component-scan>
     <context:component-scan base-package="com.grapoj">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
