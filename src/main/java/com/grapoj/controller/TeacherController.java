@@ -18,6 +18,7 @@ import java.util.List;
 
 import static com.grapoj.tool.tools.getCurrentTime;
 
+// 教师管理
 @Controller
 @RequestMapping("/teacher")
 public class TeacherController {

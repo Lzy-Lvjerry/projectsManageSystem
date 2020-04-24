@@ -10,5 +10,4 @@ public interface NoticeService {
     public Notice findNoticeByID(String noticeID);
     public void deleteNotice(String noticeID);
     public void updateNotice(Notice notice);
-
 }
